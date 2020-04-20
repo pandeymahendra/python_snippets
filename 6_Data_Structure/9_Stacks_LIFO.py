@@ -1,3 +1,8 @@
+# This is an example of stacking
+# take an example of browser where it redirects you to previous URL when you press "back" button
+# same way stacking is implemented LIFO, here in this example we are taking away one element from last in the list
+
+
 browsing_sesion = []
 
 browsing_sesion.append(1)
