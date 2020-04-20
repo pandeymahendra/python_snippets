@@ -14,3 +14,9 @@ last = browsing_sesion.pop()
 print("Popped (removed) element from the list: ", last)
 print(browsing_sesion)
 print(browsing_sesion[-1])
+
+# next we need to disable back button if the list is empty
+browsing_sesion.pop()  # 2nd Value
+browsing_sesion.pop()  # 3rd Value gone
+if not browsing_sesion:
+    print("Disable")
